@@ -1,0 +1,45 @@
+.tab-content{
+    display: flex;
+}
+
+.tab-content img{
+    box-shadow: none !important;
+}
+
+.user-info span{
+    font-size: 15px;
+}
+
+.user-info h4{
+    font-size: 16px;
+    color: rgb(187, 187, 187);
+}
+
+.icons{
+    color: var(--primary-color);
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .css-13xfq8m-MuiTabPanel-root {
+        padding: 5px;
+    }
+    .tab-content img{
+        width: 100px;
+        height: 100px;
+    }
+    
+
+    .user-info h2{
+        font-size: 18px;
+    }
+
+    .user-info h4{
+        font-size: 15px;
+    }
+    .user-info p{
+        font-size: 14px;
+    }
+
+  }

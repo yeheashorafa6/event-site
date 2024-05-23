@@ -1,0 +1,16 @@
+.speaker-section{
+    background-color:#F4F4F4 ;
+    margin-top: -100px;
+}
+.item{
+    z-index: -1;
+
+}
+.desc-text{
+    text-align: center;
+}
+
+.desc-text .job{
+    color: #9e9d9d;
+    font-size: 22px;
+}

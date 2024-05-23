@@ -1,0 +1,32 @@
+.hero-section{
+    /* background-image: url("./../../assets/image/hero/hero.jpg"); */
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.580) , rgba(0, 0, 0, 0.580)) ,url('./../../assets/image/hero/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    text-align: center;
+}
+
+
+.main-content h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width : 576px) {
+    .main-content h1{
+        font-size: 30px;
+    }
+
+    .date .h2{
+        font-size: 20px;
+    }
+    
+}

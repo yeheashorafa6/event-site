@@ -1,0 +1,32 @@
+.venue-section{
+    background: #EDEDF1;
+
+}
+
+.venue-section img{
+    box-shadow: none;
+}
+
+.venue-text{
+    margin: 7rem 7rem 0 7rem;
+}
+
+.venue-text h1{
+    color: var(--primary-color);
+    font-size: 45px;
+}
+
+.venue-place{
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+@media only screen and (max-width: 1010px) {
+    .venue-section img{
+        display: none;
+    }    
+    .venue-text {
+        margin: 1rem 1rem 0 1rem;
+    }
+  }
